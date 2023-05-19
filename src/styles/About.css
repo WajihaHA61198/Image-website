@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Futura";
+  src: url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff2")
+      format("woff2"),
+    url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff")
+      format("woff"),
+    url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "Gilroy-Bold", sans-serif;
+  src: url("https://fonts.cdnfonts.com/css/gilroy-bold");
+}
+
+main {
+  font-family: "Futura", sans-serif;
+}
+nav {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+/* --------------------------- */
+
+/* hover button underline */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* --- */
+/* for button */
+.parent:hover .child:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* ------------------ */
+/* --- */
+.child2,
+.child {
+  display: none;
+}
+
+.parent:hover .child2,
+.parent:hover .child {
+  display: block;
+}
+
+.bgParent {
+  opacity: 0.6;
+}
+.parent:hover .bgParent {
+  background-color: black;
+  --tw-bg-opacity: 0.5;
+  opacity: 0.5;
+}
