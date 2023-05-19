@@ -1,6 +1,6 @@
 import React from "react";
-import diversity1 from "../assets/Mask Group 35.png";
-import diversity2 from "../assets/IMG_7505.png";
+import diversity1 from "../assets/IMG_7505.png";
+import diversity2 from "../assets/Mask Group 35.png";
 import diversity3 from "../assets/01.png";
 import diversity4 from "../assets/Mask Group 34.png";
 import diversity5 from "../assets/Mask Group 33.png";

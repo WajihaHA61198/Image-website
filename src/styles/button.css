@@ -126,7 +126,7 @@
   height: 100%;
   /* width: 65%; */
   width: 80%;
-  background-color: #f8fafc;
+  background-color: #000000e0;
   transition: all 0.3s ease-in-out;
   transform: translate(-110%);
   position: fixed;

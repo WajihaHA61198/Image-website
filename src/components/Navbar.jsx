@@ -847,10 +847,10 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                 <div className="">
                   <i
                     onClick={handleOpenClick}
-                    className="fa-solid fa-xmark flex justify-end text-[20px] hover:text-white "
+                    className="fa-solid fa-xmark flex justify-end text-[20px] hover:text-white text-white"
                   ></i>
                 </div>
-                <h1 className="text-center text-2xl mb-8 font-semibold text-[#475569]">
+                <h1 className="text-center text-3xl mb-8 font-medium text-white">
                   Menu
                 </h1>
               </div>
@@ -859,9 +859,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   <Link
                     onClick={handleClickCloseMob}
                     to="/"
-                    className="text-[#919191]  lg:text-base md:text-xs"
+                    className="text-white  lg:text-base md:text-xs"
                   >
-                    <i className="fa-solid fa-house mr-2"></i>
+                    {/* <i className="fa-solid fa-house mr-2"></i> */}
                     Home
                   </Link>
                 </li>
@@ -874,11 +874,8 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       onClick={toggleDivAbout}
                     >
                       <div>
-                        <Link
-                          to="/about-us"
-                          className="text-[#919191] text-base"
-                        >
-                          <i className="fas fa-comments-dollar mr-2"></i>
+                        <Link to="/about-us" className="text-white text-base">
+                          {/* <i className="fas fa-comments-dollar mr-2"></i> */}
                           About Us
                         </Link>
                       </div>
@@ -886,11 +883,11 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       <div>
                         {showDivAbout ? (
                           <i
-                            className="fa fa-minus text-xs text-[#919191]"
+                            className="fa fa-minus text-xs text-white"
                             aria-hidden="true"
                           ></i>
                         ) : (
-                          <i className="fa-solid fa-plus text-xs text-[#919191]"></i>
+                          <i className="fa-solid fa-plus text-xs text-white"></i>
                         )}
                       </div>
                     </div>
@@ -903,7 +900,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/about-us"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-3"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-3"
                             >
                               Board of Directors
                             </Link>
@@ -913,7 +910,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/about-us"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm pb-0"
+                              className="dropdown-link text-white hover:text-black md:text-sm pb-0"
                             >
                               Vision & Mission
                             </Link>
@@ -928,9 +925,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   <Link
                     onClick={handleClickCloseMob}
                     to="/our-journey"
-                    className="text-[#919191] text-base"
+                    className="text-white text-base"
                   >
-                    <i className="fa-sharp fa-solid fa-plane mr-2"></i>
+                    {/* <i className="fa-sharp fa-solid fa-plane mr-2"></i> */}
                     Our Journey
                   </Link>
                 </li>
@@ -939,10 +936,10 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   <Link
                     onClick={handleClickCloseMob}
                     to="/our-team"
-                    className="text-[#919191] text-base"
+                    className="text-white text-base"
                   >
                     {/* <i class="fa fa-graduation-cap mr-2"></i> */}
-                    <i className="fa-solid fa-people-group mr-2"></i>
+                    {/* <i className="fa-solid fa-people-group mr-2"></i> */}
                     Our Team
                   </Link>
                 </li>
@@ -954,9 +951,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       <div>
                         <Link
                           // to="/investor-relations"
-                          className="text-[#919191] text-base"
+                          className="text-white text-base"
                         >
-                          <i className="fas fa-comments-dollar mr-2"></i>
+                          {/* <i className="fas fa-comments-dollar mr-2"></i> */}
                           Investor Relations
                         </Link>
                       </div>
@@ -964,11 +961,11 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       <div>
                         {showDiv ? (
                           <i
-                            className="fa fa-minus text-xs text-[#919191]"
+                            className="fa fa-minus text-xs text-white"
                             aria-hidden="true"
                           ></i>
                         ) : (
-                          <i className="fa-solid fa-plus text-xs text-[#919191]"></i>
+                          <i className="fa-solid fa-plus text-xs text-white"></i>
                         )}
                       </div>
                     </div>
@@ -981,7 +978,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/corporate-information"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Corporate Information
                             </Link>
@@ -991,7 +988,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/financial-statement"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Financial Statements
                             </Link>
@@ -1001,7 +998,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/share-register"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Share Registrar
                             </Link>
@@ -1011,7 +1008,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/notice-&-other-downloads"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Notice & Other Downloads
                             </Link>
@@ -1021,7 +1018,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/election-of-directors"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Election of Directors
                             </Link>
@@ -1031,7 +1028,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/compliance-certificate"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Compliance Certificate
                             </Link>
@@ -1041,7 +1038,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/investor-relation/secp-investor-complaint"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               SECP Investor Complaint
                             </Link>
@@ -1062,9 +1059,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       <div>
                         <Link
                           // to="/governance"
-                          className="text-[#919191] text-base"
+                          className="text-white text-base"
                         >
-                          <i className="fa-solid fa-sitemap mr-2"></i>
+                          {/* <i className="fa-solid fa-sitemap mr-2"></i> */}
                           Governance
                         </Link>
                       </div>
@@ -1072,11 +1069,11 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                       <div>
                         {showDivGov ? (
                           <i
-                            className="fa fa-minus text-xs text-[#919191]"
+                            className="fa fa-minus text-xs text-white"
                             aria-hidden="true"
                           ></i>
                         ) : (
-                          <i className="fa-solid fa-plus text-xs text-[#919191]"></i>
+                          <i className="fa-solid fa-plus text-xs text-white"></i>
                         )}
                       </div>
                     </div>
@@ -1088,7 +1085,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/governance/legal-advisor"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Legal Advisor
                             </Link>
@@ -1098,7 +1095,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/governance/pattern-of-share"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Pattern of Share
                             </Link>
@@ -1108,7 +1105,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                             <Link
                               onClick={handleClickCloseMob}
                               to="/governance/auditor"
-                              className="dropdown-link text-[#919191] hover:text-black md:text-sm py-2"
+                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
                             >
                               Auditor
                             </Link>
@@ -1124,9 +1121,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   <Link
                     onClick={handleClickCloseMob}
                     to="/events-media"
-                    className="text-[#919191] text-base"
+                    className="text-white text-base"
                   >
-                    <i className="fa-solid fa-calendar-days mr-2"></i>
+                    {/* <i className="fa-solid fa-calendar-days mr-2"></i> */}
                     Events & Media
                   </Link>
                 </li>
@@ -1135,9 +1132,9 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   <Link
                     onClick={handleClickCloseMob}
                     to="/get-in-touch"
-                    className="text-[#919191] text-base"
+                    className="text-white text-base"
                   >
-                    <i className="fas fa-comments mr-2"></i>
+                    {/* <i className="fas fa-comments mr-2"></i> */}
                     Get In Touch
                   </Link>
                 </li>
