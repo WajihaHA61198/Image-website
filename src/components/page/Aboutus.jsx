@@ -1,10 +1,26 @@
 import React from "react";
-import { About } from "../index";
+import { About, Board, VisionMission } from "../index";
 
-const Aboutus = () => {
+const Aboutus = ({ activeSections }) => {
   return (
     <React.Fragment>
-      <About />
+      <div id="about" className={activeSections === "about" ? "" : ""}>
+        <About />
+      </div>
+
+      <div
+        id="vision-and-mission"
+        className={activeSections === "vision" ? "" : ""}
+      >
+        <VisionMission />
+      </div>
+
+      <div
+        id="board-of-directors"
+        className={activeSections === "board" ? "" : ""}
+      >
+        <Board />
+      </div>
     </React.Fragment>
   );
 };

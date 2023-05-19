@@ -74,31 +74,31 @@ export const footerData = [
     content: [
       {
         li: "Corporate Information",
-        link: "/corporate-information",
+        link: "/investor-relation/corporate-information",
       },
       {
         li2: "Financial Statements",
-        link2: "/financial-statement",
+        link2: "/investor-relation/financial-statement",
       },
       {
         li3: "Share Registrar",
-        link3: "/share-register",
+        link3: "/investor-relation/share-register",
       },
       {
         li4: "Notice & Other Downloads",
-        link4: "/notice-&-other-downloads",
+        link4: "/investor-relation/notice-&-other-downloads",
       },
       {
         li5: "Election of Directors",
-        link5: "/election-of-directors",
+        link5: "/investor-relation/election-of-directors",
       },
       {
         li6: "Compliance Certificate",
-        link6: "/compliance-certificate",
+        link6: "/investor-relation/compliance-certificate",
       },
       {
         li7: "SECP Investor Complaint",
-        link7: "/secp-investor-complaint",
+        link7: "/investor-relation/secp-investor-complaint",
       },
     ],
   },
@@ -107,15 +107,15 @@ export const footerData = [
     content: [
       {
         li: "Legal Advisor",
-        link: "/legal-advisor",
+        link: "/governance/legal-advisor",
       },
       {
         li2: "Pattern of Share",
-        link2: "/pattern-of-share",
+        link2: "/governance/pattern-of-share",
       },
       {
         li3: "Auditor",
-        link3: "/auditor",
+        link3: "/governance/auditor",
       },
 
       {

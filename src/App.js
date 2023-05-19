@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Navbar, Footer } from "./components/index";
 import { Route, Routes } from "react-router-dom";
 import {
@@ -18,20 +19,49 @@ import {
   LegalAdvisor,
   PatternShare,
   Auditor,
+  DesignersRetreat,
+  WomensDay,
+  Matrix,
+  BreastCancer,
+  IndependenceDay,
+  BoardOfDirectors,
 } from "./components/page/index";
-import ScrollTop from "./ScrollTop";
 
 function App() {
+  const [activeSections, setActiveSections] = useState(null);
+  const [activeButton, setActiveButton] = useState(null);
+
+  const handleButtonChange = (buttonId) => {
+    setActiveButton(buttonId);
+  };
+  const handleLinkClick = (buttonId) => {
+    setActiveButton(buttonId);
+  };
+
   return (
     <>
-      <Navbar />
-
+      <Navbar
+        activeSections={activeSections}
+        setActiveSections={setActiveSections}
+        activeButton={activeButton}
+        onLinkClick={handleLinkClick}
+      />
       <main>
         {/* @Routes */}
         <Routes>
-        {/* <ScrollTop /> */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<Aboutus />} />
+          <Route
+            path="/"
+            element={
+              <Home
+                activeButton={activeButton}
+                onButtonChange={handleButtonChange}
+              />
+            }
+          />
+          <Route
+            path="/about-us"
+            element={<Aboutus activeSections={activeSections} />}
+          />
           <Route path="/our-journey" element={<Ourjourney />} />
           <Route path="/events-media" element={<Events />} />
           <Route path="/get-in-touch" element={<GetInTouch />} />
@@ -73,9 +103,30 @@ function App() {
             element={<PatternShare />}
           />
           <Route path="/governance/auditor" element={<Auditor />} />
+          <Route
+            path="/governance/board-of-directors"
+            element={<BoardOfDirectors />}
+          />
 
           {/* 404 */}
           <Route path="/*" element={<PageNotFound />} />
+
+          {/* Events-Media */}
+          <Route
+            path="/events-media/Designer-Retreat"
+            element={<DesignersRetreat />}
+          />
+          <Route path="/events-media/women-day" element={<WomensDay />} />
+
+          <Route path="/events-media/matrix-fit" element={<Matrix />} />
+          <Route
+            path="/events-media/breast-cancer"
+            element={<BreastCancer />}
+          />
+          <Route
+            path="/events-media/independence-day"
+            element={<IndependenceDay />}
+          />
         </Routes>
 
         <Footer />

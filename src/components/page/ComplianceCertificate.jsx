@@ -1,5 +1,5 @@
 import React from "react";
-import { Certificate } from "../index"
+import { Certificate } from "../index";
 
 const ComplianceCertificate = () => {
   return (

@@ -2,7 +2,6 @@ import React from "react";
 import diversity1 from "../assets/Mask Group 35.png";
 import diversity2 from "../assets/IMG_7505.png";
 import diversity3 from "../assets/01.png";
-
 import diversity4 from "../assets/Mask Group 34.png";
 import diversity5 from "../assets/Mask Group 33.png";
 
@@ -14,7 +13,7 @@ const TeamDiversity = () => {
           DIVERSITY AND CULTURE
         </h1>
 
-        <p
+        {/* <p
           className="text-[#919191] text-center xs:my-5 md:my-8 md:mt-4 xsm:mb-12 md:mx-[5rem] xsm:mx-[12rem]"
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -24,7 +23,7 @@ const TeamDiversity = () => {
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
           ipsum dolor sit amet.
-        </p>
+        </p> */}
 
         <div className="grid md:grid-cols-3 gap-2 mb-2">
           {/* 1 */}

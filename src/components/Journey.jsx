@@ -28,8 +28,8 @@ const Journey = () => {
         </div>
         {/* 2 */}
         <div className="text-[#919191] my-12 lg:mx-[15rem] xs:mx-[2rem]">
-          <h1 className="text-3xl text-center mb-8">OUR JOURNEY</h1>
-          <p className="text-center">
+          <h1 className="text-3xl text-center my-8 text-black">OUR JOURNEY</h1>
+          <p className=" text-start">
             Image capitalized on the changing retail landscape of Pakistan and
             built stores across major cities in Pakistan that provide superior
             products both in terms of quality and design, with the value
@@ -40,7 +40,7 @@ const Journey = () => {
           </p>
           <br />
 
-          <p className="text-center">
+          <p className="text-start">
             Commitment to excellence and creativity, has made Image one of the
             most acclaimed household names amongst fashion brands. Image also
             has a strong e-commerce presence, both nationally and
@@ -51,7 +51,7 @@ const Journey = () => {
           </p>
           <br />
 
-          <p className="text-center">
+          <p className="text-start">
             {" "}
             On 21st February, 2022 the Image received the Prime Minister’s
             Excellence Award for its outstanding performance in e-commerce, in a

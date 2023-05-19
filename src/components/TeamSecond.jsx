@@ -6,10 +6,10 @@ import "../styles/flickity.css";
 const flickityOptions = {
   initialIndex: 0,
   groupCells: true,
-  // groupCells: 4,
-  autoPlay: true,
+  // autoPlay: true,
   prevNextButtons: false,
   pageDots: false,
+  wrapAround: true
 };
 const TeamSecond = () => {
   const [isActiveBtn1, setIsActiveBtn1] = useState(true);
@@ -87,7 +87,7 @@ const TeamSecond = () => {
   };
   return (
     <React.Fragment>
-      <p className="text-[#919191] text-center xs:mx-4 md:mx-20 lg:mx-40 xs:text-base lg:text-lg my-10 lg:my-16 xsm:mx-80">
+      <p className="text-[#919191] text-center xs:mx-4 md:mx-20 lg:mx-40 xs:text-sm lg:text-base my-10 lg:my-16 xsm:mx-80">
         Established in 1993, Image is a leading high-street fashion brand.
         Popularly known as Image in the fashion & retail landscape, specialises
         in Schiffli embroidery in Pakistan, and embodies a distinctive aesthetic
@@ -101,7 +101,7 @@ const TeamSecond = () => {
           CURRENT OPPORTUNITIES
         </h1>
 
-        <div className="justify-evenly xs:mx-4 md:mx-[2rem] lg:mx-[10rem]">
+        <div className="justify-evenly xs:mx-4 md:mx-[2rem] lg:mx-[15rem]">
           <Flickity
             className={"carousel"}
             elementType={"div"}
@@ -116,10 +116,9 @@ const TeamSecond = () => {
                   color: isActiveBtn1 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn1}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
-                Textile
-                <br /> Designer
+                Textile Designer
               </button>
             </div>
             <div className="team-btn">
@@ -128,10 +127,10 @@ const TeamSecond = () => {
                   color: isActiveBtn2 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn2}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                // hover-underline-animations2
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium "
               >
-                Fashion
-                <br /> Designer
+                Fashion Designer
               </button>
             </div>
             <div className="team-btn">
@@ -140,10 +139,9 @@ const TeamSecond = () => {
                   color: isActiveBtn3 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn3}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
-                CAD
-                <br /> Designer
+                CAD Designer
               </button>
             </div>
             <div className="team-btn">
@@ -152,10 +150,9 @@ const TeamSecond = () => {
                   color: isActiveBtn4 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn4}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
-                Customer Service
-                <br /> Representative
+                Customer Service Representative
               </button>
             </div>
             {/*  */}
@@ -165,10 +162,9 @@ const TeamSecond = () => {
                   color: isActiveBtn5 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn5}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
-                IT
-                <br /> Officer
+                IT Officer
               </button>
             </div>
             <div className="team-btn">
@@ -177,7 +173,7 @@ const TeamSecond = () => {
                   color: isActiveBtn6 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn6}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
                 Photographer
               </button>
@@ -188,16 +184,15 @@ const TeamSecond = () => {
                   color: isActiveBtn7 ? "#737373" : "",
                 }}
                 onClick={handleClickBtn7}
-                className="text-[#a1a1aa] xs:text-sm md:text-lg lg:text-xl font-semibold"
+                className="text-[#a1a1aa] xs:text-sm md:text-base font-medium"
               >
-                Data Entry <br />
-                Operator.
+                Data Entry Operator
               </button>
             </div>
           </Flickity>
         </div>
 
-        <div className="text-[#919191] text-center xs:my-5 md:my-10 md:mx-[5rem] lg:mx-[15rem]">
+        <div className="text-[#919191] text-center xs:my-5 md:my-10 md:mx-[5rem] lg:mx-[15rem] xs:text-xs lg:text-sm">
           {isActiveBtn1 && (
             <p data-aos="fade-up" data-aos-duration="1000">
               <strong>Education:</strong> The candidate must have Bachelor’s in

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "./index";
 import life from "../assets/Life at Image.png";
 
-const Fourth = () => {
+const Fourth = (props) => {
   const navigate = useNavigate();
 
   return (
@@ -15,17 +15,19 @@ const Fourth = () => {
             {/* ------------------------------ */}
             {/* @-for desktop */}
             <div className="absolute lg:left-0 lg:right-[50%] xl:right-[57%] lg:block xs:hidden">
-              <h1 className="bg-black text-white uppercase lg:text-5xl xl:text-5xl lg:p-6 xs:p-2 xs:text-xl lg:block pl-8 xs:w-[99%]">
+              <h1 className="bg-black text-white uppercase lg:text-3xl xl:text-[2rem] lg:p-5 xs:p-2 xs:text-xl lg:block pl-8 xs:w-[99%]">
                 Life at image
               </h1>
 
               <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 lg:w-[107%] x2l:p-12 x2l:px-[3.5rem] ">
-                <p className="text-[#454343] lg:text-base mb-4 font-medium xs:text-[.9rem]">
+                <p className="text-[#454343] lg:text-sm mb-4 font-medium xs:text-[.8rem]">
                   Join our family of enthusiasts where individuals are polished
                   to have a promising growth and excellence in their future
                   endeavors.
                 </p>
                 <Button
+                  {...props}
+                  buttonId="Our Team"
                   value={"View Careers"}
                   onClick={() => navigate("/our-team")}
                 />
@@ -40,12 +42,14 @@ const Fourth = () => {
                 Life at image
               </h1>
               <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 w-[89%] x2l:p-12 x2l:px-[3.5rem] ">
-                <p className="text-[#454343] lg:text-base mb-4 font-medium xs:text-[.9rem]">
+                <p className="text-[#454343] lg:text-base mb-4 font-medium xs:text-[.8rem]">
                   Join our family of enthusiasts where individuals are polished
                   to have a promising growth and excellence in their future
                   endeavors.
                 </p>
                 <Button
+                  {...props}
+                  buttonId="Our Journey"
                   value={"View Careers"}
                   onClick={() => navigate("/our-team")}
                 />

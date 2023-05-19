@@ -154,7 +154,26 @@ https://flickity.metafizzy.co
 }
 
 /* ------------ */
-.team-btn{
-  /* border: 2px solid red; */
+.team-btn {
   margin: 1rem;
+  /* width: 20% !important; */
+  margin: auto;
+  /* border:1px solid; */
+  text-align: center;
+}
+.team-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+@media (min-width: 1024px) {
+  .team-btn {
+    width: 20% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .team-btn {
+    width: 26% !important;
+  }
 }

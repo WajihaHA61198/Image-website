@@ -18,7 +18,7 @@ const About = () => {
         </div>
         {/* 2 */}
         <div className="lg:col-span-2 justify-center text-[#919191] flex flex-col items-start lg:mr-32 xs:my-10 lg:mt-0 xs:mx-4 lg:mx-0">
-          <h1 className="uppercase text-3xl mb-6">About Image</h1>
+          <h1 className="uppercase text-3xl mb-6 text-black">About Image</h1>
           <p className="">
             Established in 1993, Image is a leading high-street fashion brand.
             Popularly known as Image in the fashion & retail landscape,

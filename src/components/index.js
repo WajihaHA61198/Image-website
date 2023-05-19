@@ -26,6 +26,16 @@ import ShareTable from "./ShareTable";
 import FinancialReports from "./FinancialReports";
 import Eventsimg2 from "./Eventsimg2";
 
+import Board from "./Board";
+import VisionMission from "./VisionMission";
+import Design from "./Design";
+import Women from "./Women";
+import MatrixPic from "./MatrixPic";
+import BCancer from "./BCancer";
+import Ind from "./Ind";
+
+import GmailForm from "./GmailForm";
+
 export {
   Navbar,
   Footer,
@@ -54,4 +64,12 @@ export {
   ShareTable,
   FinancialReports,
   Eventsimg2,
+  Board,
+  VisionMission,
+  Design,
+  Women,
+  MatrixPic,
+  BCancer,
+  Ind,
+  GmailForm,
 };

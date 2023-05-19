@@ -41,6 +41,10 @@
   transform: translateX(5px); /* Move the icon 5 pixels to the right */
   color: #475569;
 }
+.btn-3:hover .btn-icons {
+  transform: translateX(5px); /* Move the icon 5 pixels to the right */
+  color: #475569;
+}
 
 .btn-icons {
   transition: transform 0.2s ease-in-out; /* Add a transition effect */

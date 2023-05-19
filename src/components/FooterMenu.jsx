@@ -15,6 +15,9 @@ const FooterMenu = ({
 }) => {
   const [isActive, setIsActive] = useState(false);
 
+  const handleClickNav = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <React.Fragment>
       {/* @-desktop footer */}
@@ -22,31 +25,29 @@ const FooterMenu = ({
         <div className="">
           <h6 className="font-medium mb-4">{title}</h6>
           <ul className="md:text-xs lg:text-sm xll:text-[0.73rem] font-normal">
-            <li className="mb-1 hover-underline-animation">
+            <li
+              // hover-underline-animation
+              className="mb-1 hover:text-[#919191]"
+              onClick={handleClickNav}
+            >
               <Link to={link}>{li}</Link>
             </li>{" "}
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link2}>{li2}</Link>
             </li>{" "}
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link3}>{li3}</Link>
             </li>{" "}
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link4}>{li4}</Link>
             </li>
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link5}>{li5}</Link>
             </li>
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link6}>{li6}</Link>
             </li>
-            <br />
-            <li className="mb-1 hover-underline-animation">
+            <li className="mb-1 hover:text-[#919191]" onClick={handleClickNav}>
               <Link to={link7}>{li7}</Link>
             </li>
           </ul>
@@ -71,25 +72,25 @@ const FooterMenu = ({
         {isActive && (
           <div className="p-4 text-[13px]">
             <ul className="text-sm font-normal">
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link}>{li}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link2}>{li2}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link3}>{li3}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link4}>{li4}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link5}>{li5}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link6}>{li6}</Link>
               </li>
-              <li className="mb-1">
+              <li className="mb-1" onClick={handleClickNav}>
                 <Link to={link7}>{li7}</Link>
               </li>
             </ul>

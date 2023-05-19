@@ -1,5 +1,11 @@
 import React from "react";
-import { TeamVideo, TeamSecond, TeamResume, TeamDiversity, TeamLast } from "../index";
+import {
+  TeamVideo,
+  TeamSecond,
+  TeamResume,
+  TeamDiversity,
+  TeamLast,
+} from "../index";
 
 const Career = () => {
   return (

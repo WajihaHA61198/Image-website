@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Futura";
+  /* font-family: "Futura";
   src: url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff2")
       format("woff2"),
     url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff")
@@ -7,7 +7,7 @@
     url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.ttf")
       format("truetype");
   font-weight: normal;
-  font-style: normal;
+  font-style: normal; */
 
   font-family: "Gilroy-Bold", sans-serif;
   src: url("https://fonts.cdnfonts.com/css/gilroy-bold");
@@ -22,12 +22,19 @@ nav {
 /* --------------------------- */
 
 /* hover button underline */
+.hover-underline-animations,
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   color: white;
 }
+.hover-underline-animations{
+  display: inline-block;
+  position: relative;
+  color: black;
+}
 
+.hover-underline-animations:after,
 .hover-underline-animation:after {
   content: "";
   position: absolute;
@@ -40,8 +47,22 @@ nav {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+.hover-underline-animations2:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
 
-.hover-underline-animation:hover:after {
+.hover-underline-animations:hover:after,
+.hover-underline-animation:hover:after,
+.hover-underline-animations2:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

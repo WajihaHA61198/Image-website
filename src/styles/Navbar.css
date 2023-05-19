@@ -1,36 +1,43 @@
 .dropdown-1,
-.dropdown-2 {
+.dropdown-2,
+.dropdown-0 {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .dropdown-menu-1,
-.dropdown-menu-2 {
+.dropdown-menu-2,
+.dropdown-menu-0 {
   display: none;
   position: absolute;
-  z-index: 20;
+  z-index: 9999999;
   background-color: black;
   padding: 20px 25px;
-  /* top: 172%; */
   padding-top: 2rem;
   width: 12rem;
 }
 
 .dropdown-1:hover .dropdown-menu-1,
-.dropdown-1:focus .dropdown-menu-1,
+/* .dropdown-1:focus .dropdown-menu-1, */
 .dropdown-1:active .dropdown-menu-1,
 .dropdown-2:hover .dropdown-menu-2,
-.dropdown-2:focus .dropdown-menu-2 {
-  display: grid;
+.dropdown-2:active .dropdown-menu-2,
+.dropdown-0:hover .dropdown-menu-0,
+.dropdown-0:active .dropdown-menu-0 {
+  display: block;
+}
+
+.dropdown-link1:hover .dropdown-menu-1,
+.dropdown-link2:hover .dropdown-menu-2 {
+  display: block;
+}
+.dropdown-link1:hover .dropdown-menu-1 {
+  color: red;
 }
 /* ------------- */
-
-.iconChecker {
-  color: #a1a1aa;
-}
 .investor-droplink li {
   color: #a1a1aa;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
 }
 /* --------------- */
 .circles {
@@ -94,7 +101,15 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  /* z-index: 9999; */
+  z-index: 100;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.5s ease;
+}
+/* --------------------------------- */
+.active a {
+  /* color: white; */
+  /* font-weight: 500; */
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }

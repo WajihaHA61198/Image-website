@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Button } from "./index";
 
-const TeamResume = ({ label, onChange }) => {
+const TeamResume = ({ label, onChange, ...props }) => {
   const inputRef = useRef(null);
 
   const handleButtonClick = () => {
@@ -54,7 +54,7 @@ const TeamResume = ({ label, onChange }) => {
               for="email"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              Email
+              Email<span className="text-red-600">*</span>
             </label>
             <input
               type="email"
@@ -68,7 +68,7 @@ const TeamResume = ({ label, onChange }) => {
               for="email"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              Phone Number
+              Phone Number<span className="text-red-600">*</span>
             </label>
             <input
               type="telephone"
@@ -128,7 +128,7 @@ const TeamResume = ({ label, onChange }) => {
           </div>
         </div>
         <div className="col-start-2 grid justify-end contact-btn mb-10 xll:mx-[20rem] lg:mx-[10rem] xs:mx-[2rem]">
-          <Button value={"Submit"} />
+          <Button value={"Submit"} {...props} buttonId="Contact Form"  />
         </div>
       </div>
     </React.Fragment>

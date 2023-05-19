@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Flickity from "react-flickity-component";
 import Events1 from "../assets/Events at Image-1.png";
 import Events2 from "../assets/Events at Image-2.png";
@@ -12,6 +13,9 @@ const flickityOptions = {
   groupCells: true,
   autoPlay: true,
   prevNextButtons: false,
+  draggable: true,
+  pauseAutoPlayOnHover: false,
+  wrapAround: true,
 };
 
 const Seventh = () => {
@@ -25,16 +29,24 @@ const Seventh = () => {
       static
     >
       <div className="event-carousel">
-        <img className="flic-img" src={Events1} alt="Events1" />
+        <Link to="/events-media/women-day">
+          <img className="flic-img" src={Events1} alt="Events1" />
+        </Link>
       </div>
       <div className="event-carousel">
-        <img className="flic-img" src={Events2} alt="Events2" />
+        <Link to="/events-media/Designer-Retreat">
+          <img className="flic-img" src={Events2} alt="Events2" />
+        </Link>
       </div>
       <div className="event-carousel">
-        <img className="flic-img" src={Events3} alt="Events3" />
+        <Link to="/events-media/breast-cancer">
+          <img className="flic-img" src={Events3} alt="Events3" />
+        </Link>
       </div>
       <div className="event-carousel">
-        <img className="flic-img" src={Events4} alt="Events4" />
+        <Link to="/events-media/independence-day">
+          <img className="flic-img" src={Events4} alt="Events4" />
+        </Link>
       </div>
     </Flickity>
   );

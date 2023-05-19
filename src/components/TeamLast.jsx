@@ -2,6 +2,7 @@ import React from "react";
 import buddy from "../assets/Buddy program.png";
 import women from "../assets/Women's day.png";
 import training from "../assets/Training Program.png";
+import teamPic from "../assets/teamPic.png";
 
 const TeamLast = () => {
   return (
@@ -21,7 +22,7 @@ const TeamLast = () => {
             <h1 className="md:text-xl lg:text-2xl mb-4 font-semibold xs:text-xl">
               Buddy Program
             </h1>
-            <p className="text-[#919191] md:text-sm lg:text-base">
+            <p className="text-[#919191] xs:text-sm md:text-sm lg:text-base">
               The Buddy Program is an onboarding initiative by Image. In this
               program, we onboard and welcome new recruits by partnering them
               with our seasoned employees to help them settle in and learn the
@@ -38,7 +39,7 @@ const TeamLast = () => {
             <h1 className="md:text-xl lg:text-2xl mb-4 font-semibold xs:text-xl">
               Women’s Day
             </h1>
-            <p className="text-[#919191] md:text-sm lg:text-base">
+            <p className="text-[#919191] xs:text-sm md:text-sm lg:text-base">
               As a company that truly believes in female empowerment, Image
               leaves no stone unturned when it comes to empowering and
               celebrating women. Every year on International Women’s Day, we
@@ -60,7 +61,8 @@ const TeamLast = () => {
         {/* @3 */}
         <div className="grid md:grid-cols-2 xs:mx-4 md:mx-0">
           <img
-            src={training}
+            // src={training}
+            src={teamPic}
             alt="buddy_program"
             data-aos="fade-right" // data-aos-offset="500"
             data-aos-duration="900"
@@ -70,7 +72,7 @@ const TeamLast = () => {
             <h1 className="md:text-xl lg:text-2xl mb-4 font-semibold xs:text-xl">
               Training Sessions
             </h1>
-            <p className="text-[#919191] md:text-sm lg:text-base">
+            <p className="text-[#919191] md:text-sm lg:text-base xs:text-sm">
               One of the best ways to enhance knowledge and skills is through
               training. Providing employees with relevant and consistent
               training can help improve performance and efficiency in the

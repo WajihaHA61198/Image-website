@@ -6,7 +6,6 @@ import GetInTouch from "./GetInTouch";
 import Career from "./Careers";
 import PageNotFound from "./PageNotFound";
 
-
 import CorporateInformation from "./CorporateInformation";
 import FinancialStatement from "./FinancialStatement";
 import ShareRegister from "./ShareRegister";
@@ -18,6 +17,12 @@ import LegalAdvisor from "./LegalAdvisor";
 import PatternShare from "./PatternShare";
 import Auditor from "./Auditor";
 
+import DesignersRetreat from "./DesignersRetreat";
+import WomensDay from "./WomensDay";
+import Matrix from "./Matrix";
+import BreastCancer from "./BreastCancer";
+import IndependenceDay from "./IndependenceDay";
+import BoardOfDirectors from "./BoardOfDirectors";
 
 export {
   Home,
@@ -27,7 +32,6 @@ export {
   GetInTouch,
   Career,
   PageNotFound,
-
   CorporateInformation,
   FinancialStatement,
   ShareRegister,
@@ -38,4 +42,10 @@ export {
   LegalAdvisor,
   PatternShare,
   Auditor,
+  DesignersRetreat,
+  WomensDay,
+  Matrix,
+  BreastCancer,
+  IndependenceDay,
+  BoardOfDirectors,
 };
