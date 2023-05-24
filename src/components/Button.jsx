@@ -23,7 +23,7 @@ const Button = ({ value, onClick, ...props }) => {
       onClick={handleClickBtn}
       className={
         props.activeButton === props.buttonId
-          ? "active"
+          ? "active  btn-3 font-normal md:text-xs leading-5 lg:px-[27px] lg:py-[10px] md:px-[32px] md:py-[10px] sx:px-[20px] sx:py-[7px] sx:text-xs hover:text-black"
           : "btn-3 font-normal md:text-xs leading-5 lg:px-[27px] lg:py-[10px] md:px-[32px] md:py-[10px] sx:px-[20px] sx:py-[7px] sx:text-xs hover:text-black"
       }
     >

@@ -3,13 +3,15 @@ import D1 from "../assets/matrix/1.JPG";
 import D2 from "../assets/matrix/2.JPG";
 import D3 from "../assets/matrix/3.JPG";
 import D4 from "../assets/matrix/4.JPG";
+import D5 from "../assets/matrix/5.JPG";
+import D6 from "../assets/matrix/6.JPG";
 
 const MatrixPic = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [D1, D2, D3, D4];
+  const images = [D1, D2, D3, D4, D5, D6];
 
   const handleImageClick = (src, index) => {
     setModalImageSrc(src);

@@ -6,13 +6,101 @@ import D4 from "../assets/designers Retreat/4.jpg";
 import D5 from "../assets/designers Retreat/5.jpg";
 import D6 from "../assets/designers Retreat/6.jpeg";
 //
+import D7 from "../assets/designers Retreat/7.jpg";
+import D8 from "../assets/designers Retreat/8.jpg";
+import D9 from "../assets/designers Retreat/9.jpg";
+import D10 from "../assets/designers Retreat/10.jpg";
+//
+import D11 from "../assets/designers Retreat/11.jpg";
+import D12 from "../assets/designers Retreat/12.jpg";
+import D13 from "../assets/designers Retreat/13.jpg";
+import D14 from "../assets/designers Retreat/14.jpg";
+import D15 from "../assets/designers Retreat/15.jpg";
+import D16 from "../assets/designers Retreat/16.jpg";
+import D17 from "../assets/designers Retreat/17.jpg";
+import D18 from "../assets/designers Retreat/18.jpg";
+import D19 from "../assets/designers Retreat/19.jpg";
+import D20 from "../assets/designers Retreat/20.jpg";
+import D21 from "../assets/designers Retreat/21.jpg";
+import D22 from "../assets/designers Retreat/22.jpg";
+import D23 from "../assets/designers Retreat/23.jpg";
+import D24 from "../assets/designers Retreat/24.jpg";
+import D25 from "../assets/designers Retreat/25.jpg";
+import D26 from "../assets/designers Retreat/26.jpeg";
+import D27 from "../assets/designers Retreat/27.JPG";
+import D28 from "../assets/designers Retreat/28.jpg";
+import D29 from "../assets/designers Retreat/29.jpg";
+import D30 from "../assets/designers Retreat/30.jpg";
+import D31 from "../assets/designers Retreat/31.jpg";
+//
+import D32 from "../assets/designers Retreat/32.jpg";
+import D33 from "../assets/designers Retreat/33.jpg";
+import D34 from "../assets/designers Retreat/34.jpg";
+import D35 from "../assets/designers Retreat/35.jpg";
+import D36 from "../assets/designers Retreat/36.jpg";
+import D37 from "../assets/designers Retreat/37.jpg";
+//
+import D38 from "../assets/designers Retreat/38.JPG";
+import D39 from "../assets/designers Retreat/39.jpg";
+import D40 from "../assets/designers Retreat/40.jpg";
+import D41 from "../assets/designers Retreat/41.jpg";
+import D42 from "../assets/designers Retreat/42.jpg";
+import D43 from "../assets/designers Retreat/43.jpg";
+import D44 from "../assets/designers Retreat/44.jpg";
 
 const Design = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [D1, D2, D3, D4, D5, D6];
+  const images = [
+    D1,
+    D2,
+    // D3,
+    D4,
+    D5,
+    D6,
+    D8,
+    // D9,
+    // D10,
+    // D11,
+    // D12,
+    D13,
+    D14,
+    // D15,
+    D16,
+    D17,
+    // D18,
+    D19,
+    // D20,
+    D21,
+    D22,
+    D23,
+    D24,
+    D25,
+    D26,
+    D7,
+    D28,
+    // D29,
+    // D30,
+    D31,
+    D32,
+    // D33,
+    D35,
+    // D36,
+    // D37,
+
+    D27,
+    D39,
+    D40,
+    // D41,
+    // D42,
+    D43,
+    D44,
+
+    D38,
+    D34,
+  ];
 
   const handleImageClick = (src, index) => {
     setModalImageSrc(src);

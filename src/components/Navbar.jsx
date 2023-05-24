@@ -551,7 +551,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   ? "active text-white "
                   : ""
               }
-              onClick={() => handleLinkClick("Investor Relations")}
+              // onClick={() => handleLinkClick("Investor Relations")}
             >
               <div className="dropdown-1">
                 <NavLink
