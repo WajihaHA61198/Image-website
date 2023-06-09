@@ -44,8 +44,8 @@ const Third = (props) => {
                   Vision
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
-                  Image is committed to strive for excellence in all
-                  areas of its activity.
+                  Image is committed to strive for excellence in all areas of
+                  its activity.
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Third = (props) => {
                   Mission
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
-                  Providing quality product that promote commerce and industry
+                  Providing quality product that promotes commerce and industry
                   with an objective of contributing to the nation’s prosperity.
                 </p>
               </div>
@@ -86,7 +86,7 @@ const Third = (props) => {
                   Core Values
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
-                  We Believe in 3C’s: Commitment, Competence & Consistency.
+                  We believe in 3Cs: Commitment, Competence & Consistency.
                 </p>
               </div>
             </div>

@@ -8,7 +8,7 @@ const Footers = () => {
     // bottom-0
     <footer className="absolute  w-full h-auto pb-8 bg-[#1f1f1f] text-white xs:footerShadow lg:shadow-inner">
       <img
-        className="m-auto pt-8 sx:w-[60vw] xl:w-[45%]"
+        className="m-auto pt-8 sx:w-[60vw] xl:w-[30%]"
         src="https://cdn.shopify.com/s/files/1/0418/6429/8657/files/image-logo-white.png?v=1593109200"
         alt="image_logo"
       />

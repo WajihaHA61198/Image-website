@@ -9,7 +9,7 @@ const flickityOptions = {
   // autoPlay: true,
   prevNextButtons: false,
   pageDots: false,
-  wrapAround: true
+  wrapAround: true,
 };
 const TeamSecond = () => {
   const [isActiveBtn1, setIsActiveBtn1] = useState(true);
@@ -199,7 +199,7 @@ const TeamSecond = () => {
               Textile.
               <br />
               <strong>Designing Experience:</strong> 2 years of experience as an
-              embroidery designer.
+              Embroidery Designer.
             </p>
           )}
           {isActiveBtn2 && (
@@ -225,7 +225,7 @@ const TeamSecond = () => {
           )}
           {isActiveBtn4 && (
             <p data-aos="fade-up" data-aos-duration="1000">
-              <strong>Education:</strong> Min. Bachelor of Business
+              <strong>Education:</strong> Min. Bachelor's of Business
               Administration
               <br />
               <strong>Designing Experience:</strong> 2-3 years of experience in
@@ -235,7 +235,7 @@ const TeamSecond = () => {
 
           {isActiveBtn5 && (
             <p data-aos="fade-up" data-aos-duration="1000">
-              <strong>Education:</strong> Candidate must have Bachelors in
+              <strong>Education:</strong> Candidate must have Bachelor's in
               Computer Science.
               <br />
               <strong>Designing Experience:</strong> 2-4 years of experience in

@@ -51,7 +51,7 @@ const Fifth = (props) => {
         <div className="col-span-2 flex flex-col justify-center lg:ml-8 xs:m-2">
           <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 w-[89%] x2l:p-12 x2l:px-[3.5rem] ">
             <p className="text-[#454343] lg:text-sm mb-4 font-medium xs:text-[.8rem]">
-              For any queries regarding investment or collaborations, click the
+              For any queries regarding investments or collaborations, click the
               link below to get in touch with us.
             </p>
             <Button

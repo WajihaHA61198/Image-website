@@ -37,20 +37,20 @@ const Second = (props) => {
           {/* xll:-left-[8rem] */}
           <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 relative lg:-left-[5rem]  lg:w-[100%] x2l:p-12 x2l:px-[3.5rem] xs:-top-4 xs:mx-4 lg:top-0 lg:mx-0 xll:left-[0%]">
             {/* <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 lg:w-[107%] x2l:p-12 x2l:px-[3.5rem]"> */}
-              <p className="text-[#454343] lg:text-sm mb-4 font-medium xs:text-[.8rem]">
-                Image is a high-quality fashion brand that aims on changing the
-                retail landscape of Pakistan. With its presence nationwide,
-                Image provides top-notched value added superior "Design
-                Clothing" products...
-              </p>
-              <Button
-                {...props}
-                buttonId="Our Journey"
-                value={"Read More"}
-                onClick={() => navigate("/our-journey")}
-              />
-            </div>
+            <p className="text-[#454343] lg:text-sm mb-4 font-medium xs:text-[.8rem]">
+              Image capitalized on the changing retail landscape of Pakistan and
+              built stores across major cities in Pakistan that provide superior
+              products both in terms of quality and design, with the value
+              addition of selling ’Designer Clothing’ at affordable prices.
+            </p>
+            <Button
+              {...props}
+              buttonId="Our Journey"
+              value={"Read More"}
+              onClick={() => navigate("/our-journey")}
+            />
           </div>
+        </div>
         {/* </div> */}
       </section>
     </React.Fragment>

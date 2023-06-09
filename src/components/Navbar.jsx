@@ -467,7 +467,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
             {/* drop-0 - About */}
             <li
               className={props.activeButton === "About us" ? "active" : ""}
-              // onClick={() => handleLinkClick("About us")}
+              onClick={() => handleLinkClick("About us")}
             >
               <div className="dropdown-0">
                 <NavLink
@@ -551,10 +551,11 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                   ? "active text-white "
                   : ""
               }
-              // onClick={() => handleLinkClick("Investor Relations")}
+              onClick={() => handleLinkClick("Investor Relations")}
             >
               <div className="dropdown-1">
                 <NavLink
+                  to="/investor-relation/corporate-information"
                   activeClassName="active"
                   onClick={Investor}
                   className="dropdown-link1 text-white md:text-xs lg:text-sm xl:text-base iconChecker"
@@ -642,7 +643,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
             {/* drop-2 - Governance */}
             <li
               className={props.activeButton === "Governance" ? "active" : ""}
-              // onClick={() => handleLinkClick("Governance")}
+              onClick={() => handleLinkClick("Governance")}
             >
               <div className="dropdown-2">
                 <NavLink

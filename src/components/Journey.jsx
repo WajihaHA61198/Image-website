@@ -53,11 +53,11 @@ const Journey = () => {
 
           <p className="text-start">
             {" "}
-            On 21st February, 2022 the Image received the Prime Minister’s
+            On 21st February, 2022 Image received the Prime Minister’s
             Excellence Award for its outstanding performance in e-commerce, in a
             prestigious ceremony held by the Ministry of Commerce in Islamabad.
             The brand has shown resilience in unprecedented times and continues
-            to enjoy a strong growth trajectory post the pandemic.
+            to enjoy a strong growth trajectory post-pandemic.
           </p>
         </div>
       </section>

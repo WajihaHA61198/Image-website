@@ -28,7 +28,7 @@ const TeamLast = () => {
               with our seasoned employees to help them settle in and learn the
               ropes, both socially and professionally. With this initiative,
               Image not only helps them achieve their true potential but enables
-              them to feel at home at Image.
+              them to feel at home.
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const TeamLast = () => {
               leaves no stone unturned when it comes to empowering and
               celebrating women. Every year on International Women’s Day, we
               organize a series of events designed to arm women with the tools
-              they need to succeed in life, professionally, economically,
+              they need to succeed in life; professionally, economically,
               mentally, and socially – whilst also celebrating their
               contribution with exciting giveaways.
             </p>

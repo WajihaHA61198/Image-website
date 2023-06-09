@@ -56,7 +56,7 @@ const Eventsimg2 = () => {
                 <div className="absolute top-0 left-0 w-full h-full z-10 transition-opacity duration-500 ease-in-out hover:opacity-100 bgParent"></div>
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20 transition-transform duration-500 ease-in-out hover:scale-110">
                   <p className="text-white text-center xs:text-2xl xm:text-3xl mb-2 child2">
-                    Woman’s Day
+                    Women’s Day
                   </p>
                   <button className="child text-white md:text-xs xs:text-[10px] hover-underline-animation">
                     View More
