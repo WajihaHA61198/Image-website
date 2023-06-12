@@ -13,7 +13,7 @@ const VisionMission = () => {
             <h1 className="uppercase text-3xl mb-6 text-black">Vision</h1>
             <p>
               Image is committed to strive for excellence in all areas of its
-              activity.
+              activities.
             </p>
           </div>
           <div className="flex justify-center" data-aos="fade-left">
